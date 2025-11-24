@@ -1,0 +1,774 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "order": 1,
+      "text": "여행 계획은…",
+      "optionA": "대략적인 방향만 정하고 떠난다.",
+      "optionB": "시간대별 구체적인 일정표가 있어야 편하다.",
+      "axis": "rhythm",
+      "scoreA": "S",
+      "scoreB": "P"
+    },
+    {
+      "id": "q2",
+      "order": 2,
+      "text": "예상치 못한 일정 변동이 생기면?",
+      "optionA": "오히려 이런 게 여행의 맛이지!",
+      "optionB": "일정이 흐트러지면 스트레스를 받는다.",
+      "axis": "rhythm",
+      "scoreA": "S",
+      "scoreB": "P"
+    },
+    {
+      "id": "q3",
+      "order": 3,
+      "text": "여행 중 하루 일정은?",
+      "optionA": "활동적인 액티비티로 가득 채운다.",
+      "optionB": "여유롭게 쉬며 힐링한다.",
+      "axis": "energy",
+      "scoreA": "A",
+      "scoreB": "R"
+    },
+    {
+      "id": "q4",
+      "order": 4,
+      "text": "여행의 목적은?",
+      "optionA": "새로운 경험과 모험을 즐긴다.",
+      "optionB": "평소의 피로를 풀며 휴식을 취한다.",
+      "axis": "energy",
+      "scoreA": "A",
+      "scoreB": "R"
+    },
+    {
+      "id": "q5",
+      "order": 5,
+      "text": "숙소 선택 기준은?",
+      "optionA": "가성비 좋은 곳을 찾는다.",
+      "optionB": "편안하고 고급스러운 곳을 선호한다.",
+      "axis": "budget",
+      "scoreA": "B",
+      "scoreB": "L"
+    },
+    {
+      "id": "q6",
+      "order": 6,
+      "text": "식사 예산은?",
+      "optionA": "현지 맛집을 찾아 가성비 있게 즐긴다.",
+      "optionB": "고급 레스토랑에서 특별한 식사를 즐긴다.",
+      "axis": "budget",
+      "scoreA": "B",
+      "scoreB": "L"
+    },
+    {
+      "id": "q7",
+      "order": 7,
+      "text": "쇼핑 스타일은?",
+      "optionA": "필요한 것만 현명하게 구매한다.",
+      "optionB": "특별한 기념품이나 명품을 구매한다.",
+      "axis": "budget",
+      "scoreA": "B",
+      "scoreB": "L"
+    },
+    {
+      "id": "q8",
+      "order": 8,
+      "text": "교통수단 선택은?",
+      "optionA": "대중교통이나 저렴한 옵션을 선호한다.",
+      "optionB": "편안한 교통수단을 선택한다.",
+      "axis": "budget",
+      "scoreA": "B",
+      "scoreB": "L"
+    },
+    {
+      "id": "q9",
+      "order": 9,
+      "text": "여행 중 에너지 레벨은?",
+      "optionA": "하루 종일 바쁘게 움직인다.",
+      "optionB": "천천히 여유롭게 즐긴다.",
+      "axis": "energy",
+      "scoreA": "A",
+      "scoreB": "R"
+    },
+    {
+      "id": "q10",
+      "order": 10,
+      "text": "여행 준비는?",
+      "optionA": "필수품만 챙기고 떠난다.",
+      "optionB": "상세한 체크리스트를 작성한다.",
+      "axis": "rhythm",
+      "scoreA": "S",
+      "scoreB": "P"
+    },
+    {
+      "id": "q11",
+      "order": 11,
+      "text": "여행 중 예상치 못한 상황은?",
+      "optionA": "즉흥적으로 대처하며 즐긴다.",
+      "optionB": "미리 대비하고 계획을 세운다.",
+      "axis": "rhythm",
+      "scoreA": "S",
+      "scoreB": "P"
+    },
+    {
+      "id": "q12",
+      "order": 12,
+      "text": "선호하는 여행지는?",
+      "optionA": "자연 속에서 힐링하는 곳",
+      "optionB": "도시의 문화와 명소를 즐기는 곳",
+      "axis": "concept",
+      "scoreA": "N",
+      "scoreB": "C"
+    },
+    {
+      "id": "q13",
+      "order": 13,
+      "text": "여행 중 활동은?",
+      "optionA": "트레킹, 액티비티 등 활동적인 것",
+      "optionB": "스파, 휴식 등 여유로운 것",
+      "axis": "energy",
+      "scoreA": "A",
+      "scoreB": "R"
+    },
+    {
+      "id": "q14",
+      "order": 14,
+      "text": "여행 일정은?",
+      "optionA": "유연하게 변경 가능한 일정",
+      "optionB": "명확하게 정해진 일정",
+      "axis": "rhythm",
+      "scoreA": "S",
+      "scoreB": "P"
+    },
+    {
+      "id": "q15",
+      "order": 15,
+      "text": "여행 예산 관리 방식은?",
+      "optionA": "절약하며 현명하게 사용한다.",
+      "optionB": "특별한 경험을 위해 투자한다.",
+      "axis": "budget",
+      "scoreA": "B",
+      "scoreB": "L"
+    },
+    {
+      "id": "q16",
+      "order": 16,
+      "text": "여행의 하이라이트는?",
+      "optionA": "새로운 도전과 모험",
+      "optionB": "완벽한 휴식과 힐링",
+      "axis": "energy",
+      "scoreA": "A",
+      "scoreB": "R"
+    }
+  ],
+  "types": {
+    "SABN": {
+      "code": "SABN",
+      "name": "자유로운 탐험가",
+      "description": "즉흥적이고 활동적인 당신은 배낭 하나로 자연을 누비는 모험가입니다. 계획에 얽매이지 않고 순간의 영감을 따라 떠나는 자유로운 영혼이에요. 가성비를 중시하며 자연 속에서 진정한 힐링을 찾는 타입입니다. 예상치 못한 상황도 즐거운 경험으로 바꾸는 당신의 여행은 언제나 특별한 추억이 됩니다.",
+      "imageUrl": "https://example.com/images/sabn.png",
+      "traits": {
+        "rhythm": "계획 없이 떠나도 OK! 즉흥적인 여행을 즐기는 자유로운 영혼",
+        "energy": "하루 2만보는 기본! 활동적인 액티비티로 하루를 가득 채우는 에너지 뿜뿜",
+        "budget": "가성비 최고 추구! 현명한 소비로 더 많은 경험을 즐기는 스마트 여행자",
+        "concept": "자연 속에서 힐링! 도시의 소음보다 숲과 바다의 평화를 선호"
+      },
+      "destinations": [
+        {
+          "name": "베트남 다낭",
+          "description": "저렴하게 즐기는 해변과 자연, 즉흥적인 여행에 최적",
+          "imageUrl": "https://example.com/images/da-nang.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=12345"
+        },
+        {
+          "name": "태국 치앙마이",
+          "description": "자연 속 트레킹과 저렴한 가격의 액티비티가 풍부한 도시",
+          "imageUrl": "https://example.com/images/chiang-mai.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=67890"
+        },
+        {
+          "name": "필리핀 보라카이",
+          "description": "즉흥적으로 즐길 수 있는 해변 액티비티와 자연 경관",
+          "imageUrl": "https://example.com/images/boracay.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=11111"
+        }
+      ]
+    },
+    "PRLC": {
+      "code": "PRLC",
+      "name": "완벽한 휴양 마스터",
+      "description": "계획형이면서도 프리미엄을 추구하는 당신은 완벽한 휴양을 즐기는 여행자입니다. 도시의 편리함과 고급스러운 시설을 모두 원하는 타입이에요. 상세한 일정 계획과 함께 럭셔리한 경험을 즐기며, 도시의 문화와 명소를 체계적으로 탐방합니다. 당신의 여행은 언제나 완벽하게 준비되고, 최고의 경험으로 기억됩니다.",
+      "imageUrl": "https://example.com/images/prlc.png",
+      "traits": {
+        "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+        "energy": "여유롭게 휴식하며 즐기기! 바쁘게 움직이기보다 힐링에 집중",
+        "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+        "concept": "도시의 문화와 명소 탐방! 편리함과 다양성을 모두 즐기는 도시형"
+      },
+      "destinations": [
+        {
+          "name": "싱가포르",
+          "description": "계획하기 좋은 도시형 여행지, 프리미엄 쇼핑과 문화 체험",
+          "imageUrl": "https://example.com/images/singapore.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=22222"
+        },
+        {
+          "name": "도쿄",
+          "description": "완벽한 계획으로 즐기는 도시 문화와 고급 식당 탐방",
+          "imageUrl": "https://example.com/images/tokyo.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=33333"
+        },
+        {
+          "name": "홍콩",
+          "description": "프리미엄 쇼핑과 미식 여행을 계획적으로 즐기기 좋은 도시",
+          "imageUrl": "https://example.com/images/hongkong.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=44444"
+        }
+      ]
+    },
+    "PABC": {
+      "code": "PABC",
+      "name": "문화 수집가",
+      "description": "계획적으로 도시의 모든 명소를 가성비 있게 정복하는 활동가입니다. 상세한 일정표를 작성하며 도시의 문화와 명소를 빠짐없이 탐방하는 타입이에요. 가성비를 중시하지만 활동적인 여행을 즐기며, 체계적인 계획으로 최대한 많은 경험을 쌓습니다. 당신의 여행은 효율적이면서도 알찬 추억으로 가득합니다.",
+      "imageUrl": "https://example.com/images/pabc.png",
+      "traits": {
+        "rhythm": "체계적인 계획으로 여행! 시간대별 일정표로 효율적인 여행",
+        "energy": "활동적으로 도시 탐방! 하루 종일 바쁘게 움직이며 경험 쌓기",
+        "budget": "가성비 최고 추구! 현명한 소비로 더 많은 명소 탐방",
+        "concept": "도시의 문화와 명소 탐방! 도시의 모든 것을 체계적으로 경험"
+      },
+      "destinations": [
+        {
+          "name": "서울",
+          "description": "계획적으로 즐기는 도시 문화와 가성비 좋은 맛집 탐방",
+          "imageUrl": "https://example.com/images/seoul.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=55555"
+        },
+        {
+          "name": "타이베이",
+          "description": "활동적으로 즐기는 도시 명소와 저렴한 가격의 문화 체험",
+          "imageUrl": "https://example.com/images/taipei.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=66666"
+        },
+        {
+          "name": "방콕",
+          "description": "계획적으로 정복하는 도시의 모든 명소와 가성비 맛집",
+          "imageUrl": "https://example.com/images/bangkok.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=77777"
+        }
+      ]
+    },
+    "SRLN": {
+      "code": "SRLN",
+      "name": "자유로운 힐링러",
+      "description": "즉흥적이면서도 여유롭게 자연 속에서 힐링을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 기분에 따라 여행을 즐기며, 자연 속에서 진정한 휴식을 찾는 타입이에요. 가성비를 중시하지만 여유롭게 시간을 보내며, 자연의 평화로움을 만끽합니다. 당신의 여행은 자유롭고 평화로운 추억으로 남습니다.",
+      "imageUrl": "https://example.com/images/srln.png",
+      "traits": {
+        "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+        "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 자연 속 휴식",
+        "budget": "가성비 좋은 여행! 현명한 소비로 더 오래 즐기는 여행",
+        "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+      },
+      "destinations": [
+        {
+          "name": "제주도",
+          "description": "즉흥적으로 즐기는 자연 경관과 여유로운 힐링 여행",
+          "imageUrl": "https://example.com/images/jeju.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=88888"
+        },
+        {
+          "name": "발리",
+          "description": "자유롭게 즐기는 자연 속 힐링과 가성비 좋은 리조트",
+          "imageUrl": "https://example.com/images/bali.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=99999"
+        },
+        {
+          "name": "푸켓",
+          "description": "즉흥적으로 즐기는 해변 휴식과 자연 경관",
+          "imageUrl": "https://example.com/images/phuket.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=00000"
+        }
+      ]
+    },
+    "SABC": {
+      "code": "SABC",
+      "name": "즉흥 미식가",
+      "description": "즉흥적이고 활동적인 당신은 도시의 숨은 맛집을 찾아다니는 럭셔리 탐험가입니다. 계획 없이 떠나도 OK, 가성비 좋은 맛집과 도시의 명소를 활동적으로 탐방하는 타입이에요.",
+      "imageUrl": "https://example.com/images/sabc.png",
+      "traits": {
+        "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK",
+        "energy": "활동적으로 도시 탐방! 하루 종일 바쁘게 움직이기",
+        "budget": "가성비 최고 추구! 현명한 소비로 더 많은 경험",
+        "concept": "도시의 문화와 명소 탐방! 도시의 모든 것을 경험"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description for SABC destination 1",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description for SABC destination 2",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description for SABC destination 3",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "SALN": {
+      "code": "SALN",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for SALN type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/saln.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "SALC": {
+      "code": "SALC",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for SALC type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/salc.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "SRBN": {
+      "code": "SRBN",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for SRBN type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/srbn.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "SRBC": {
+      "code": "SRBC",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for SRBC type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/srbc.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "SRLN": {
+      "code": "SRLN",
+      "name": "자유로운 힐링러",
+      "description": "즉흥적이면서도 여유롭게 자연 속에서 힐링을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 기분에 따라 여행을 즐기며, 자연 속에서 진정한 휴식을 찾는 타입이에요. 가성비를 중시하지만 여유롭게 시간을 보내며, 자연의 평화로움을 만끽합니다. 당신의 여행은 자유롭고 평화로운 추억으로 남습니다.",
+      "imageUrl": "https://example.com/images/srln.png",
+      "traits": {
+        "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+        "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 자연 속 휴식",
+        "budget": "가성비 좋은 여행! 현명한 소비로 더 오래 즐기는 여행",
+        "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+      },
+      "destinations": [
+        {
+          "name": "제주도",
+          "description": "즉흥적으로 즐기는 자연 경관과 여유로운 힐링 여행",
+          "imageUrl": "https://example.com/images/jeju.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=88888"
+        },
+        {
+          "name": "발리",
+          "description": "자유롭게 즐기는 자연 속 힐링과 가성비 좋은 리조트",
+          "imageUrl": "https://example.com/images/bali.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=99999"
+        },
+        {
+          "name": "푸켓",
+          "description": "즉흥적으로 즐기는 해변 휴식과 자연 경관",
+          "imageUrl": "https://example.com/images/phuket.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=00000"
+        }
+      ]
+    },
+    "SRLC": {
+      "code": "SRLC",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for SRLC type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/srlc.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PABN": {
+      "code": "PABN",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for PABN type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/pabn.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PABC": {
+      "code": "PABC",
+      "name": "문화 수집가",
+      "description": "계획적으로 도시의 모든 명소를 가성비 있게 정복하는 활동가입니다. 상세한 일정표를 작성하며 도시의 문화와 명소를 빠짐없이 탐방하는 타입이에요. 가성비를 중시하지만 활동적인 여행을 즐기며, 체계적인 계획으로 최대한 많은 경험을 쌓습니다. 당신의 여행은 효율적이면서도 알찬 추억으로 가득합니다.",
+      "imageUrl": "https://example.com/images/pabc.png",
+      "traits": {
+        "rhythm": "체계적인 계획으로 여행! 시간대별 일정표로 효율적인 여행",
+        "energy": "활동적으로 도시 탐방! 하루 종일 바쁘게 움직이며 경험 쌓기",
+        "budget": "가성비 최고 추구! 현명한 소비로 더 많은 명소 탐방",
+        "concept": "도시의 문화와 명소 탐방! 도시의 모든 것을 체계적으로 경험"
+      },
+      "destinations": [
+        {
+          "name": "서울",
+          "description": "계획적으로 즐기는 도시 문화와 가성비 좋은 맛집 탐방",
+          "imageUrl": "https://example.com/images/seoul.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=55555"
+        },
+        {
+          "name": "타이베이",
+          "description": "활동적으로 즐기는 도시 명소와 저렴한 가격의 문화 체험",
+          "imageUrl": "https://example.com/images/taipei.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=66666"
+        },
+        {
+          "name": "방콕",
+          "description": "계획적으로 정복하는 도시의 모든 명소와 가성비 맛집",
+          "imageUrl": "https://example.com/images/bangkok.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=77777"
+        }
+      ]
+    },
+    "PALN": {
+      "code": "PALN",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for PALN type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/paln.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PALC": {
+      "code": "PALC",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for PALC type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/palc.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PRBN": {
+      "code": "PRBN",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for PRBN type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/prbn.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PRBC": {
+      "code": "PRBC",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for PRBC type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/prbc.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PRLN": {
+      "code": "PRLN",
+      "name": "Placeholder Name",
+      "description": "Placeholder description for PRLN type. This will be updated with actual content later.",
+      "imageUrl": "https://example.com/images/prln.png",
+      "traits": {
+        "rhythm": "Placeholder rhythm trait",
+        "energy": "Placeholder energy trait",
+        "budget": "Placeholder budget trait",
+        "concept": "Placeholder concept trait"
+      },
+      "destinations": [
+        {
+          "name": "Placeholder Destination 1",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder1"
+        },
+        {
+          "name": "Placeholder Destination 2",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder2"
+        },
+        {
+          "name": "Placeholder Destination 3",
+          "description": "Placeholder description",
+          "imageUrl": "https://example.com/images/placeholder.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=placeholder3"
+        }
+      ]
+    },
+    "PRLC": {
+      "code": "PRLC",
+      "name": "완벽한 휴양 마스터",
+      "description": "계획형이면서도 프리미엄을 추구하는 당신은 완벽한 휴양을 즐기는 여행자입니다. 도시의 편리함과 고급스러운 시설을 모두 원하는 타입이에요. 상세한 일정 계획과 함께 럭셔리한 경험을 즐기며, 도시의 문화와 명소를 체계적으로 탐방합니다. 당신의 여행은 언제나 완벽하게 준비되고, 최고의 경험으로 기억됩니다.",
+      "imageUrl": "https://example.com/images/prlc.png",
+      "traits": {
+        "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+        "energy": "여유롭게 휴식하며 즐기기! 바쁘게 움직이기보다 힐링에 집중",
+        "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+        "concept": "도시의 문화와 명소 탐방! 편리함과 다양성을 모두 즐기는 도시형"
+      },
+      "destinations": [
+        {
+          "name": "싱가포르",
+          "description": "계획하기 좋은 도시형 여행지, 프리미엄 쇼핑과 문화 체험",
+          "imageUrl": "https://example.com/images/singapore.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=22222"
+        },
+        {
+          "name": "도쿄",
+          "description": "완벽한 계획으로 즐기는 도시 문화와 고급 식당 탐방",
+          "imageUrl": "https://example.com/images/tokyo.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=33333"
+        },
+        {
+          "name": "홍콩",
+          "description": "프리미엄 쇼핑과 미식 여행을 계획적으로 즐기기 좋은 도시",
+          "imageUrl": "https://example.com/images/hongkong.jpg",
+          "affiliateLink": "https://www.agoda.com/search?city=44444"
+        }
+      ]
+    }
+  }
+}

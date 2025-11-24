@@ -1,0 +1,56 @@
+name: travely
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.3
+  firebase_auth: ^5.3.1
+  firebase_analytics: ^11.3.3
+  
+  # AdMob
+  google_mobile_ads: ^5.1.0
+  
+  # 로컬 저장
+  shared_preferences: ^2.3.2
+  
+  # 공유 및 링크
+  share_plus: ^10.1.2
+  url_launcher: ^6.3.1
+  
+  # 이미지 캡처
+  screenshot: ^2.1.0
+  
+  # 파일 저장
+  path_provider: ^2.1.2
+  
+  # 갤러리 저장
+  image_gallery_saver: ^2.0.3
+  
+  # 상태 관리
+  provider: ^6.1.2
+  
+  # 이미지
+  cached_network_image: ^3.3.1
+  
+  # 애니메이션
+  lottie: ^3.1.2
+  
+  # 유틸리티
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,515 @@
+{
+  "SABN": {
+    "code": "SABN",
+    "name": "자유로운 탐험가",
+    "description": "즉흥적이고 활동적인 당신은 배낭 하나로 자연을 누비는 모험가입니다. 계획에 얽매이지 않고 순간의 영감을 따라 떠나는 자유로운 영혼이에요. 가성비를 중시하며 자연 속에서 진정한 힐링을 찾는 타입입니다. 예상치 못한 상황도 즐거운 경험으로 바꾸는 당신의 여행은 언제나 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/sabn.png",
+    "traits": {
+      "rhythm": "계획 없이 떠나도 OK! 즉흥적인 여행을 즐기는 자유로운 영혼",
+      "energy": "하루 2만보는 기본! 활동적인 액티비티로 하루를 가득 채우는 에너지 뿜뿜",
+      "budget": "가성비 최고 추구! 현명한 소비로 더 많은 경험을 즐기는 스마트 여행자",
+      "concept": "자연 속에서 힐링! 도시의 소음보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "베트남 다낭",
+        "description": "저렴하게 즐기는 해변과 자연, 즉흥적인 여행에 최적",
+        "imageUrl": "https://example.com/images/da-nang.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=12345"
+      },
+      {
+        "name": "태국 치앙마이",
+        "description": "자연 속 트레킹과 저렴한 가격의 액티비티가 풍부한 도시",
+        "imageUrl": "https://example.com/images/chiang-mai.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=67890"
+      },
+      {
+        "name": "필리핀 보라카이",
+        "description": "즉흥적으로 즐길 수 있는 해변 액티비티와 자연 경관",
+        "imageUrl": "https://example.com/images/boracay.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=11111"
+      }
+    ]
+  },
+  "SABC": {
+    "code": "SABC",
+    "name": "즉흥 도시 탐험가",
+    "description": "즉흥적이고 활동적인 당신은 도시의 숨은 명소를 찾아다니는 모험가입니다. 계획 없이 떠나도 OK, 가성비 좋은 맛집과 도시의 문화를 활동적으로 탐방하는 타입이에요. 예상치 못한 골목길도 새로운 발견의 기회로 만드는 당신의 여행은 도시의 모든 것을 경험하는 특별한 여정입니다.",
+    "imageUrl": "https://example.com/images/sabc.png",
+    "traits": {
+      "rhythm": "계획 없이 떠나도 OK! 즉흥적으로 도시를 탐험하는 자유로운 영혼",
+      "energy": "하루 종일 바쁘게 움직이기! 도시의 모든 명소를 활동적으로 탐방",
+      "budget": "가성비 최고 추구! 현명한 소비로 더 많은 도시 경험을 즐기기",
+      "concept": "도시의 문화와 명소 탐방! 도시의 숨은 맛집과 명소를 발견"
+    },
+    "destinations": [
+      {
+        "name": "타이베이",
+        "description": "즉흥적으로 즐기는 야시장과 가성비 좋은 맛집 탐방",
+        "imageUrl": "https://example.com/images/taipei.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=22222"
+      },
+      {
+        "name": "방콕",
+        "description": "활동적으로 즐기는 도시의 모든 명소와 저렴한 가격의 문화 체험",
+        "imageUrl": "https://example.com/images/bangkok.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=33333"
+      },
+      {
+        "name": "쿠알라룸푸르",
+        "description": "즉흥적으로 탐방하는 도시의 명소와 가성비 좋은 맛집",
+        "imageUrl": "https://example.com/images/kuala-lumpur.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=44444"
+      }
+    ]
+  },
+  "SALN": {
+    "code": "SALN",
+    "name": "프리미엄 자연 탐험가",
+    "description": "즉흥적이면서도 프리미엄을 추구하는 당신은 자연 속에서 특별한 경험을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 영감을 따라 떠나며, 자연 속에서 럭셔리한 힐링을 찾는 타입이에요. 특별한 순간을 위해 투자하는 당신의 여행은 자연의 아름다움과 프리미엄 경험이 만나는 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/saln.png",
+    "traits": {
+      "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+      "energy": "활동적으로 자연 탐험! 하루 종일 바쁘게 움직이며 경험 쌓기",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "몰디브",
+        "description": "즉흥적으로 즐기는 프리미엄 리조트와 자연 경관",
+        "imageUrl": "https://example.com/images/maldives.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=55555"
+      },
+      {
+        "name": "세이셸",
+        "description": "활동적으로 즐기는 자연 탐험과 럭셔리 리조트",
+        "imageUrl": "https://example.com/images/seychelles.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=66666"
+      },
+      {
+        "name": "보라보라",
+        "description": "즉흥적으로 즐기는 프리미엄 자연 경험과 액티비티",
+        "imageUrl": "https://example.com/images/bora-bora.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=77777"
+      }
+    ]
+  },
+  "SALC": {
+    "code": "SALC",
+    "name": "프리미엄 도시 탐험가",
+    "description": "즉흥적이면서도 프리미엄을 추구하는 당신은 도시의 고급 문화를 즐기는 여행자입니다. 계획 없이 떠나도 OK, 도시의 럭셔리한 경험과 명소를 활동적으로 탐방하는 타입이에요. 특별한 순간을 위해 투자하며 도시의 모든 것을 경험하는 당신의 여행은 프리미엄 경험이 가득한 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/salc.png",
+    "traits": {
+      "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+      "energy": "활동적으로 도시 탐방! 하루 종일 바쁘게 움직이며 경험 쌓기",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "도시의 문화와 명소 탐방! 도시의 프리미엄 경험을 즐기기"
+    },
+    "destinations": [
+      {
+        "name": "도쿄",
+        "description": "즉흥적으로 즐기는 프리미엄 미식과 도시 문화 탐방",
+        "imageUrl": "https://example.com/images/tokyo.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=88888"
+      },
+      {
+        "name": "싱가포르",
+        "description": "활동적으로 즐기는 프리미엄 쇼핑과 도시 명소 탐방",
+        "imageUrl": "https://example.com/images/singapore.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=99999"
+      },
+      {
+        "name": "두바이",
+        "description": "즉흥적으로 즐기는 럭셔리 쇼핑과 도시의 프리미엄 경험",
+        "imageUrl": "https://example.com/images/dubai.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=00000"
+      }
+    ]
+  },
+  "SRBN": {
+    "code": "SRBN",
+    "name": "자유로운 자연 힐링러",
+    "description": "즉흥적이면서도 여유롭게 자연 속에서 힐링을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 기분에 따라 여행을 즐기며, 자연 속에서 진정한 휴식을 찾는 타입이에요. 가성비를 중시하지만 여유롭게 시간을 보내며, 자연의 평화로움을 만끽합니다. 당신의 여행은 자유롭고 평화로운 추억으로 남습니다.",
+    "imageUrl": "https://example.com/images/srbn.png",
+    "traits": {
+      "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 자연 속 휴식",
+      "budget": "가성비 좋은 여행! 현명한 소비로 더 오래 즐기는 여행",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "제주도",
+        "description": "즉흥적으로 즐기는 자연 경관과 여유로운 힐링 여행",
+        "imageUrl": "https://example.com/images/jeju.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=11111"
+      },
+      {
+        "name": "발리",
+        "description": "자유롭게 즐기는 자연 속 힐링과 가성비 좋은 리조트",
+        "imageUrl": "https://example.com/images/bali.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=22222"
+      },
+      {
+        "name": "푸켓",
+        "description": "즉흥적으로 즐기는 해변 휴식과 자연 경관",
+        "imageUrl": "https://example.com/images/phuket.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=33333"
+      }
+    ]
+  },
+  "SRBC": {
+    "code": "SRBC",
+    "name": "자유로운 도시 힐링러",
+    "description": "즉흥적이면서도 여유롭게 도시에서 힐링을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 기분에 따라 도시를 탐방하며, 도시 속에서 진정한 휴식을 찾는 타입이에요. 가성비를 중시하지만 여유롭게 시간을 보내며, 도시의 문화와 평화를 동시에 즐깁니다. 당신의 여행은 자유롭고 편안한 추억으로 남습니다.",
+    "imageUrl": "https://example.com/images/srbc.png",
+    "traits": {
+      "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 도시 속 휴식",
+      "budget": "가성비 좋은 여행! 현명한 소비로 더 오래 즐기는 여행",
+      "concept": "도시의 문화와 명소 탐방! 도시의 편안함과 문화를 즐기기"
+    },
+    "destinations": [
+      {
+        "name": "부산",
+        "description": "즉흥적으로 즐기는 해변 휴식과 도시의 문화 체험",
+        "imageUrl": "https://example.com/images/busan.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=44444"
+      },
+      {
+        "name": "호치민",
+        "description": "여유롭게 즐기는 도시의 문화와 가성비 좋은 힐링 여행",
+        "imageUrl": "https://example.com/images/ho-chi-minh.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=55555"
+      },
+      {
+        "name": "페낭",
+        "description": "즉흥적으로 즐기는 도시의 평화로운 분위기와 힐링",
+        "imageUrl": "https://example.com/images/penang.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=66666"
+      }
+    ]
+  },
+  "SRLN": {
+    "code": "SRLN",
+    "name": "프리미엄 자연 힐링러",
+    "description": "즉흥적이면서도 프리미엄을 추구하며 자연 속에서 힐링을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 기분에 따라 여행을 즐기며, 자연 속에서 럭셔리한 휴식을 찾는 타입이에요. 특별한 순간을 위해 투자하며 여유롭게 시간을 보내는 당신의 여행은 자연의 평화와 프리미엄 경험이 만나는 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/srln.png",
+    "traits": {
+      "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 자연 속 휴식",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "몰디브",
+        "description": "즉흥적으로 즐기는 프리미엄 리조트와 자연 힐링",
+        "imageUrl": "https://example.com/images/maldives.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=77777"
+      },
+      {
+        "name": "세이셸",
+        "description": "여유롭게 즐기는 자연 속 프리미엄 힐링과 휴식",
+        "imageUrl": "https://example.com/images/seychelles.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=88888"
+      },
+      {
+        "name": "보라보라",
+        "description": "즉흥적으로 즐기는 럭셔리 자연 경험과 힐링",
+        "imageUrl": "https://example.com/images/bora-bora.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=99999"
+      }
+    ]
+  },
+  "SRLC": {
+    "code": "SRLC",
+    "name": "프리미엄 도시 힐링러",
+    "description": "즉흥적이면서도 프리미엄을 추구하며 도시에서 힐링을 즐기는 여행자입니다. 계획에 얽매이지 않고 순간의 기분에 따라 도시를 탐방하며, 도시 속에서 럭셔리한 휴식을 찾는 타입이에요. 특별한 순간을 위해 투자하며 여유롭게 시간을 보내는 당신의 여행은 도시의 문화와 프리미엄 경험이 만나는 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/srlc.png",
+    "traits": {
+      "rhythm": "즉흥적으로 떠나는 여행! 계획 없이도 OK, 자유로운 영혼",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 도시 속 휴식",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "도시의 문화와 명소 탐방! 도시의 프리미엄 경험을 즐기기"
+    },
+    "destinations": [
+      {
+        "name": "도쿄",
+        "description": "즉흥적으로 즐기는 프리미엄 힐링과 도시 문화 체험",
+        "imageUrl": "https://example.com/images/tokyo.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=00000"
+      },
+      {
+        "name": "싱가포르",
+        "description": "여유롭게 즐기는 프리미엄 쇼핑과 도시 힐링",
+        "imageUrl": "https://example.com/images/singapore.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=11111"
+      },
+      {
+        "name": "홍콩",
+        "description": "즉흥적으로 즐기는 럭셔리 도시 경험과 힐링",
+        "imageUrl": "https://example.com/images/hongkong.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=22222"
+      }
+    ]
+  },
+  "PABN": {
+    "code": "PABN",
+    "name": "계획적인 자연 탐험가",
+    "description": "계획적이면서도 활동적인 당신은 자연을 체계적으로 탐험하는 여행자입니다. 상세한 일정표를 작성하며 자연 속에서 다양한 액티비티를 즐기는 타입이에요. 가성비를 중시하며 체계적인 계획으로 최대한 많은 자연 경험을 쌓습니다. 당신의 여행은 효율적이면서도 자연의 아름다움을 만끽하는 알찬 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/pabn.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "활동적으로 자연 탐험! 하루 종일 바쁘게 움직이며 경험 쌓기",
+      "budget": "가성비 최고 추구! 현명한 소비로 더 많은 자연 경험을 즐기기",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "라오스",
+        "description": "계획적으로 즐기는 자연 트레킹과 가성비 좋은 액티비티",
+        "imageUrl": "https://example.com/images/laos.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=33333"
+      },
+      {
+        "name": "네팔",
+        "description": "체계적으로 즐기는 자연 탐험과 활동적인 여행",
+        "imageUrl": "https://example.com/images/nepal.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=44444"
+      },
+      {
+        "name": "스리랑카",
+        "description": "계획적으로 즐기는 자연 경관과 가성비 좋은 여행",
+        "imageUrl": "https://example.com/images/sri-lanka.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=55555"
+      }
+    ]
+  },
+  "PABC": {
+    "code": "PABC",
+    "name": "문화 수집가",
+    "description": "계획적으로 도시의 모든 명소를 가성비 있게 정복하는 활동가입니다. 상세한 일정표를 작성하며 도시의 문화와 명소를 빠짐없이 탐방하는 타입이에요. 가성비를 중시하지만 활동적인 여행을 즐기며, 체계적인 계획으로 최대한 많은 경험을 쌓습니다. 당신의 여행은 효율적이면서도 알찬 추억으로 가득합니다.",
+    "imageUrl": "https://example.com/images/pabc.png",
+    "traits": {
+      "rhythm": "체계적인 계획으로 여행! 시간대별 일정표로 효율적인 여행",
+      "energy": "활동적으로 도시 탐방! 하루 종일 바쁘게 움직이며 경험 쌓기",
+      "budget": "가성비 최고 추구! 현명한 소비로 더 많은 명소 탐방",
+      "concept": "도시의 문화와 명소 탐방! 도시의 모든 것을 체계적으로 경험"
+    },
+    "destinations": [
+      {
+        "name": "서울",
+        "description": "계획적으로 즐기는 도시 문화와 가성비 좋은 맛집 탐방",
+        "imageUrl": "https://example.com/images/seoul.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=66666"
+      },
+      {
+        "name": "타이베이",
+        "description": "활동적으로 즐기는 도시 명소와 저렴한 가격의 문화 체험",
+        "imageUrl": "https://example.com/images/taipei.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=77777"
+      },
+      {
+        "name": "방콕",
+        "description": "계획적으로 정복하는 도시의 모든 명소와 가성비 맛집",
+        "imageUrl": "https://example.com/images/bangkok.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=88888"
+      }
+    ]
+  },
+  "PALN": {
+    "code": "PALN",
+    "name": "계획적인 프리미엄 자연러",
+    "description": "계획적이면서도 프리미엄을 추구하는 당신은 자연 속에서 특별한 경험을 체계적으로 즐기는 여행자입니다. 상세한 일정표를 작성하며 자연 속에서 럭셔리한 액티비티를 즐기는 타입이에요. 특별한 순간을 위해 투자하며 체계적인 계획으로 최고의 자연 경험을 쌓습니다. 당신의 여행은 완벽하게 준비되고, 자연의 아름다움과 프리미엄 경험이 만나는 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/paln.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "활동적으로 자연 탐험! 하루 종일 바쁘게 움직이며 경험 쌓기",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "몰디브",
+        "description": "계획적으로 즐기는 프리미엄 리조트와 자연 액티비티",
+        "imageUrl": "https://example.com/images/maldives.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=99999"
+      },
+      {
+        "name": "세이셸",
+        "description": "체계적으로 즐기는 자연 탐험과 럭셔리 리조트",
+        "imageUrl": "https://example.com/images/seychelles.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=00000"
+      },
+      {
+        "name": "보라보라",
+        "description": "계획적으로 즐기는 프리미엄 자연 경험과 액티비티",
+        "imageUrl": "https://example.com/images/bora-bora.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=11111"
+      }
+    ]
+  },
+  "PALC": {
+    "code": "PALC",
+    "name": "계획적인 프리미엄 도시러",
+    "description": "계획적이면서도 프리미엄을 추구하는 당신은 도시의 고급 문화를 체계적으로 즐기는 여행자입니다. 상세한 일정표를 작성하며 도시의 럭셔리한 경험과 명소를 빠짐없이 탐방하는 타입이에요. 특별한 순간을 위해 투자하며 체계적인 계획으로 최고의 도시 경험을 쌓습니다. 당신의 여행은 완벽하게 준비되고, 도시의 문화와 프리미엄 경험이 만나는 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/palc.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "활동적으로 도시 탐방! 하루 종일 바쁘게 움직이며 경험 쌓기",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "도시의 문화와 명소 탐방! 도시의 프리미엄 경험을 체계적으로 즐기기"
+    },
+    "destinations": [
+      {
+        "name": "도쿄",
+        "description": "계획적으로 즐기는 프리미엄 미식과 도시 문화 탐방",
+        "imageUrl": "https://example.com/images/tokyo.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=22222"
+      },
+      {
+        "name": "싱가포르",
+        "description": "체계적으로 즐기는 프리미엄 쇼핑과 도시 명소 탐방",
+        "imageUrl": "https://example.com/images/singapore.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=33333"
+      },
+      {
+        "name": "두바이",
+        "description": "계획적으로 즐기는 럭셔리 쇼핑과 도시의 프리미엄 경험",
+        "imageUrl": "https://example.com/images/dubai.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=44444"
+      }
+    ]
+  },
+  "PRBN": {
+    "code": "PRBN",
+    "name": "계획적인 자연 힐링러",
+    "description": "계획적이면서도 여유롭게 자연 속에서 힐링을 즐기는 여행자입니다. 상세한 일정표를 작성하며 자연 속에서 진정한 휴식을 체계적으로 즐기는 타입이에요. 가성비를 중시하지만 여유롭게 시간을 보내며, 자연의 평화로움을 만끽합니다. 당신의 여행은 완벽하게 준비되고, 자연의 평화와 힐링이 가득한 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/prbn.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 자연 속 휴식",
+      "budget": "가성비 좋은 여행! 현명한 소비로 더 오래 즐기는 여행",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "제주도",
+        "description": "계획적으로 즐기는 자연 경관과 여유로운 힐링 여행",
+        "imageUrl": "https://example.com/images/jeju.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=55555"
+      },
+      {
+        "name": "발리",
+        "description": "체계적으로 즐기는 자연 속 힐링과 가성비 좋은 리조트",
+        "imageUrl": "https://example.com/images/bali.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=66666"
+      },
+      {
+        "name": "푸켓",
+        "description": "계획적으로 즐기는 해변 휴식과 자연 경관",
+        "imageUrl": "https://example.com/images/phuket.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=77777"
+      }
+    ]
+  },
+  "PRBC": {
+    "code": "PRBC",
+    "name": "계획적인 도시 힐링러",
+    "description": "계획적이면서도 여유롭게 도시에서 힐링을 즐기는 여행자입니다. 상세한 일정표를 작성하며 도시의 문화와 명소를 체계적으로 탐방하는 타입이에요. 가성비를 중시하지만 여유롭게 시간을 보내며, 도시의 문화와 평화를 동시에 즐깁니다. 당신의 여행은 완벽하게 준비되고, 도시의 편안함과 힐링이 가득한 특별한 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/prbc.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 도시 속 휴식",
+      "budget": "가성비 좋은 여행! 현명한 소비로 더 오래 즐기는 여행",
+      "concept": "도시의 문화와 명소 탐방! 도시의 편안함과 문화를 체계적으로 즐기기"
+    },
+    "destinations": [
+      {
+        "name": "부산",
+        "description": "계획적으로 즐기는 해변 휴식과 도시의 문화 체험",
+        "imageUrl": "https://example.com/images/busan.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=88888"
+      },
+      {
+        "name": "호치민",
+        "description": "체계적으로 즐기는 도시의 문화와 가성비 좋은 힐링 여행",
+        "imageUrl": "https://example.com/images/ho-chi-minh.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=99999"
+      },
+      {
+        "name": "페낭",
+        "description": "계획적으로 즐기는 도시의 평화로운 분위기와 힐링",
+        "imageUrl": "https://example.com/images/penang.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=00000"
+      }
+    ]
+  },
+  "PRLN": {
+    "code": "PRLN",
+    "name": "완벽한 자연 휴양 마스터",
+    "description": "계획적이면서도 프리미엄을 추구하며 자연 속에서 힐링을 즐기는 여행자입니다. 상세한 일정표를 작성하며 자연 속에서 럭셔리한 휴식을 체계적으로 즐기는 타입이에요. 특별한 순간을 위해 투자하며 여유롭게 시간을 보내는 당신의 여행은 완벽하게 준비되고, 자연의 평화와 프리미엄 경험이 만나는 최고의 추억이 됩니다.",
+    "imageUrl": "https://example.com/images/prln.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "여유롭게 힐링하며 즐기기! 바쁘게 움직이기보다 자연 속 휴식",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "자연 속에서 힐링! 도시보다 숲과 바다의 평화를 선호"
+    },
+    "destinations": [
+      {
+        "name": "몰디브",
+        "description": "계획적으로 즐기는 프리미엄 리조트와 자연 힐링",
+        "imageUrl": "https://example.com/images/maldives.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=11111"
+      },
+      {
+        "name": "세이셸",
+        "description": "체계적으로 즐기는 자연 속 프리미엄 힐링과 휴식",
+        "imageUrl": "https://example.com/images/seychelles.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=22222"
+      },
+      {
+        "name": "보라보라",
+        "description": "계획적으로 즐기는 럭셔리 자연 경험과 힐링",
+        "imageUrl": "https://example.com/images/bora-bora.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=33333"
+      }
+    ]
+  },
+  "PRLC": {
+    "code": "PRLC",
+    "name": "완벽한 휴양 마스터",
+    "description": "계획형이면서도 프리미엄을 추구하는 당신은 완벽한 휴양을 즐기는 여행자입니다. 도시의 편리함과 고급스러운 시설을 모두 원하는 타입이에요. 상세한 일정 계획과 함께 럭셔리한 경험을 즐기며, 도시의 문화와 명소를 체계적으로 탐방합니다. 당신의 여행은 언제나 완벽하게 준비되고, 최고의 경험으로 기억됩니다.",
+    "imageUrl": "https://example.com/images/prlc.png",
+    "traits": {
+      "rhythm": "완벽한 계획으로 여행! 시간대별 일정표가 있어야 마음이 편한 플래너",
+      "energy": "여유롭게 휴식하며 즐기기! 바쁘게 움직이기보다 힐링에 집중",
+      "budget": "프리미엄 경험 추구! 특별한 순간을 위해 투자하는 여행자",
+      "concept": "도시의 문화와 명소 탐방! 편리함과 다양성을 모두 즐기는 도시형"
+    },
+    "destinations": [
+      {
+        "name": "싱가포르",
+        "description": "계획하기 좋은 도시형 여행지, 프리미엄 쇼핑과 문화 체험",
+        "imageUrl": "https://example.com/images/singapore.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=44444"
+      },
+      {
+        "name": "도쿄",
+        "description": "완벽한 계획으로 즐기는 도시 문화와 고급 식당 탐방",
+        "imageUrl": "https://example.com/images/tokyo.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=55555"
+      },
+      {
+        "name": "홍콩",
+        "description": "프리미엄 쇼핑과 미식 여행을 계획적으로 즐기기 좋은 도시",
+        "imageUrl": "https://example.com/images/hongkong.jpg",
+        "affiliateLink": "https://www.agoda.com/search?city=66666"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,56 @@
+{
+    "name": "트래블리 - 나만의 여행 MBTI",
+    "short_name": "트래블리",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#F8FAFC",
+    "theme_color": "#4A90D9",
+    "description": "16개 질문으로 알아보는 나의 여행 성향 테스트. 당신만의 여행 MBTI를 발견하고 맞춤 여행지를 추천받아보세요!",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "categories": ["travel", "lifestyle", "entertainment"],
+    "lang": "ko",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "테스트 시작",
+            "short_name": "테스트",
+            "description": "여행 MBTI 테스트 시작하기",
+            "url": "/test",
+            "icons": [
+                {
+                    "src": "icons/Icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

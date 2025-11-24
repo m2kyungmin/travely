@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Base href -->
+    <base href="$FLUTTER_BASE_HREF" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
+
+    <!-- Google Fonts - Noto Sans KR for Korean text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>트래블리 - 나만의 여행 MBTI</title>
+    <meta name="title" content="트래블리 - 나만의 여행 MBTI" />
+    <meta
+      name="description"
+      content="16개 질문으로 알아보는 나의 여행 성향 테스트. 당신만의 여행 MBTI를 발견하고 맞춤 여행지를 추천받아보세요!"
+    />
+    <meta
+      name="keywords"
+      content="여행 MBTI, 여행 테스트, 여행 성향, 여행 추천, 트래블리, Travely"
+    />
+    <meta name="author" content="트래블리" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Korean" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://travely.app/" />
+    <meta property="og:title" content="트래블리 - 나만의 여행 MBTI" />
+    <meta
+      property="og:description"
+      content="16개 질문으로 알아보는 나의 여행 성향 테스트. 당신만의 여행 MBTI를 발견하고 맞춤 여행지를 추천받아보세요!"
+    />
+    <meta property="og:image" content="https://travely.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="트래블리 - 나만의 여행 MBTI" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="트래블리" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://travely.app/" />
+    <meta property="twitter:title" content="트래블리 - 나만의 여행 MBTI" />
+    <meta
+      property="twitter:description"
+      content="16개 질문으로 알아보는 나의 여행 성향 테스트. 당신만의 여행 MBTI를 발견하고 맞춤 여행지를 추천받아보세요!"
+    />
+    <meta property="twitter:image" content="https://travely.app/og-image.png" />
+    <meta property="twitter:image:alt" content="트래블리 - 나만의 여행 MBTI" />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="트래블리" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/Icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/Icon-512.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#4A90D9" />
+    <meta name="msapplication-TileColor" content="#4A90D9" />
+    <meta name="msapplication-navbutton-color" content="#4A90D9" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Loading Spinner Styles -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #f8fafc 0%, #4a90d9 100%);
+        font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+          "Droid Sans", "Helvetica Neue", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+
+      .loading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+      }
+
+      .loading-logo {
+        width: 120px;
+        height: 120px;
+        background: linear-gradient(135deg, #4a90d9 0%, #ff6b6b 100%);
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 10px 30px rgba(74, 144, 217, 0.3);
+        animation: pulse 2s ease-in-out infinite;
+        margin-bottom: 24px;
+      }
+
+      .loading-logo svg {
+        width: 60px;
+        height: 60px;
+        fill: white;
+      }
+
+      .loading-text {
+        font-size: 28px;
+        font-weight: bold;
+        color: #4a90d9;
+        margin-bottom: 8px;
+        animation: fadeIn 1s ease-in;
+      }
+
+      .loading-subtext {
+        font-size: 16px;
+        color: #64748b;
+        margin-bottom: 48px;
+        animation: fadeIn 1.2s ease-in;
+      }
+
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid rgba(74, 144, 217, 0.2);
+        border-top-color: #4a90d9;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          box-shadow: 0 10px 30px rgba(74, 144, 217, 0.3);
+        }
+        50% {
+          transform: scale(1.05);
+          box-shadow: 0 15px 40px rgba(74, 144, 217, 0.4);
+        }
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .hidden {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-container" id="loading">
+      <div class="loading-logo">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"
+          />
+        </svg>
+      </div>
+      <div class="loading-text">트래블리</div>
+      <div class="loading-subtext">나만의 여행 성향 찾기</div>
+      <div class="loading-spinner"></div>
+    </div>
+
+    <script>
+      // Flutter 앱이 로드되면 로딩 화면 숨기기
+      window.addEventListener("flutter-first-frame", function () {
+        const loading = document.getElementById("loading");
+        if (loading) {
+          loading.classList.add("hidden");
+        }
+      });
+
+      // 로딩 화면을 최소 1초간 표시 (UX 개선)
+      const minLoadTime = 1000;
+      const startTime = Date.now();
+
+      window.addEventListener("flutter-first-frame", function () {
+        const elapsed = Date.now() - startTime;
+        const remaining = Math.max(0, minLoadTime - elapsed);
+
+        setTimeout(function () {
+          const loading = document.getElementById("loading");
+          if (loading) {
+            loading.style.opacity = "0";
+            loading.style.transition = "opacity 0.5s ease-out";
+            setTimeout(function () {
+              loading.classList.add("hidden");
+            }, 500);
+          }
+        }, remaining);
+      });
+    </script>
+
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>
