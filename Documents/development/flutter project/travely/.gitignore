@@ -50,3 +50,7 @@ serviceAccountKey.json
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+
+# Exclude other projects
+../startUpWithAI_1121/
+Documents/한림대/startUpWithAI_1121/
